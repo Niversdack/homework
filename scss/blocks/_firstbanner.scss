@@ -1,0 +1,67 @@
+.block_firstbanner {
+    background-image: url("img/firstbaner-back.png");
+    background-position-y: -5px;
+    background-repeat: no-repeat;
+    padding-bottom: 81px;
+    height: 456px;
+    display: flex;
+    justify-content: center;
+
+    // margin-left: auto;
+    // margin-right: auto;
+    div {
+        max-width: 1210px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        .firstbanner_str1 {
+            
+            font-style: normal;
+            font-weight: bold;
+            line-height: normal;
+            font-size: 47px;
+            
+            text-transform: uppercase;
+            
+            color: #59B039;
+
+            span {
+                font-size: 70px;
+            }
+
+        }
+
+        // .firstbanner_str1::after {
+        //     position: absolute;
+        //     content: " ";
+        //     border: solid 1px black;
+        //     font-size: 70px;
+        //     width: 290px;
+        //     height: 131px;
+        //     right: -19px;
+        //     border-left: none;
+            
+        // }
+        // .firstbanner_str1::before {
+        //     position: absolute;
+        //     content: " ";
+        //     border-left: solid 1px white;
+        //     font-size: 70px;
+        //     width: 290px;
+        //     height: 131px;
+        //     right: -19px;
+            
+        // }
+
+        .firstbanner_str2 {
+            span {
+                font-size: 74px;
+            }
+
+            font-size: 54px;
+        }
+    }
+
+}

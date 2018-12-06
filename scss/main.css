@@ -1,0 +1,309 @@
+body {
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.block_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1210px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block_header .header_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.block_header .header_left .header_logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  width: none;
+  height: 84px;
+}
+
+.block_header .header_left .header_city-timework {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 215px;
+  margin-left: 83px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.block_header .header_left .header_city-timework .city {
+  color: #665E5E;
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+
+.block_header .header_left .header_city-timework .time {
+  color: #59B039;
+  font-size: 16px;
+  text-align: center;
+}
+
+.block_header .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.block_header .header_right .header_number-call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.block_header .header_right .header_number-call .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 23px;
+  color: #665E5E;
+  margin-bottom: 13px;
+}
+
+.block_header .header_right .header_number-call .number_call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.block_header .header_right .header_number-call .number_call .vk {
+  margin-right: 27px;
+}
+
+.block_header .header_right .header_number-call .number_call .call {
+  height: 25px;
+  border: 1px solid #59B039;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 16px;
+  text-align: center;
+  color: #59B039;
+}
+
+.block_nav {
+  height: 93px;
+  min-width: 100%;
+  background: #59B039;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Change the link color to #111 (black) on hover */
+}
+
+.block_nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1274px;
+  width: 1274px;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.block_nav ul li {
+  float: left;
+  padding: 16px  27px;
+  border: solid 1px transparent;
+}
+
+.block_nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.block_nav li:hover {
+  border: solid 1px white;
+}
+
+.block_firstbanner {
+  background-image: url("img/firstbaner-back.png");
+  background-position-y: -5px;
+  background-repeat: no-repeat;
+  padding-bottom: 81px;
+  height: 456px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block_firstbanner div {
+  max-width: 1210px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.block_firstbanner div .firstbanner_str1 {
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 47px;
+  text-transform: uppercase;
+  color: #59B039;
+}
+
+.block_firstbanner div .firstbanner_str1 span {
+  font-size: 70px;
+}
+
+.block_firstbanner div .firstbanner_str2 {
+  font-size: 54px;
+}
+
+.block_firstbanner div .firstbanner_str2 span {
+  font-size: 74px;
+}
+
+.block_call {
+  height: 355px;
+  width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.block_call .call_headline {
+  font-size: 51px;
+}
+
+.block_call input {
+  background-position: 10px 10px;
+  height: 56px;
+  border: 1px solid #59B039;
+  background-repeat: no-repeat;
+}
+
+.block_call #email #date .info {
+  margin-bottom: 25px;
+}
+
+.block_call .call_long {
+  width: 590px;
+  margin-right: 39px;
+}
+
+.block_call .call_long input {
+  width: 590px;
+}
+
+.block_call .call_short {
+  width: 126px;
+  margin-right: 39px;
+}
+
+.block_call .call_short input {
+  width: 126px;
+}
+
+.block_call .call_info {
+  width: 277px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 170px;
+}
+
+.block_call .call_info button {
+  width: 277px;
+  height: 56px;
+  background: #59B039;
+  border: none;
+  color: white;
+}
+
+.block_call .cdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+/*# sourceMappingURL=main.css.map */
