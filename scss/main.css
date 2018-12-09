@@ -769,10 +769,24 @@ body {
   color: #214910;
 }
 
-.block_getcatalog .catalog .catalog_textbox button {
+.block_getcatalog .catalog .catalog_textbox .catalog_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block_getcatalog .catalog .catalog_textbox .catalog_button button {
+  margin-top: 34px;
   position: relative;
-  width: 277px;
-  height: 60px;
+  width: 199px;
+  height: 47px;
   background: #28411f;
   border: none;
   color: white;
@@ -780,19 +794,84 @@ body {
   z-index: 1;
 }
 
-.block_getcatalog .catalog .catalog_textbox button:hover {
-  background: #214910;
-  font-size: 19px;
+.block_process {
+  max-width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 80px;
 }
 
-.block_getcatalog .catalog .catalog_textbox button::after {
-  z-index: 0;
+.block_process .process_headline {
+  font-size: 51px;
+  color: #333333;
+}
+
+.block_process .process_list {
+  margin-top: 80px;
+}
+
+.block_process .process_list ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block_process .process_list ul li {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.block_process .process_list ul li .list_center {
+  color: #59B039;
+}
+
+.block_process .process_list ul li .list_bot {
+  color: #646062;
+}
+
+.block_process .process_list ul li .list_vector {
+  margin: 0 30px;
+  width: 79.74px;
+  height: 62px;
+}
+
+.block_process .process_button {
+  position: relative;
+  width: 277px;
+  height: 60px;
+  background: #59b039;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.block_process .process_button::after {
+  z-index: -1;
   position: absolute;
-  content: " ";
+  content: "";
   width: 277px;
   height: 60px;
   left: 12px;
   top: 13px;
-  border: 2px solid #c4c4c4;
+  border: 1px solid #c4c4c4;
+}
+
+.block_process .process_button:hover {
+  background: #214910;
+  font-size: 19px;
 }
 /*# sourceMappingURL=main.css.map */
